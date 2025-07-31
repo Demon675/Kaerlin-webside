@@ -1,0 +1,272 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Buy Keys - Kearlin Executor</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@300;400;500;600;700&family=Orbitron:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body class="dark-theme">
+    <canvas id="matrix-canvas"></canvas>
+    
+    <header class="header">
+        <nav class="navbar">
+            <div class="nav-container">
+                <div class="nav-logo">
+                    <h2><span class="neon-green">KEARLIN</span> <span class="neon-text">EXECUTOR</span></h2>
+                </div>
+                <ul class="nav-menu">
+                    <li><a href="welcome.html" class="nav-link">WELCOME</a></li>
+                    <li><a href="download.html" class="nav-link">DOWNLOAD</a></li>
+                    <li><a href="buy.html" class="nav-link active">BUY KEYS</a></li>
+                    <li><a href="discord.html" class="nav-link">DISCORD</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <!-- Hero Section -->
+        <section class="hero">
+            <div class="hero-container">
+                <div class="hero-content">
+                    <div class="hero-text">
+                        <h1>
+                            <span class="glitch-text">BUY PREMIUM</span><br>
+                            <span class="neon-green">EXECUTOR KEYS</span>
+                        </h1>
+                        <p class="hero-subtitle">
+                            Choose your key duration and unlock the full potential<br>
+                            of the most advanced Roblox exploit available.
+                        </p>
+                        
+                        <div class="hero-stats">
+                            <div class="stat">
+                                <span class="stat-number">7</span>
+                                <span class="stat-label">Key Options</span>
+                            </div>
+                            <div class="stat">
+                                <span class="stat-number">INSTANT</span>
+                                <span class="stat-label">Delivery</span>
+                            </div>
+                            <div class="stat">
+                                <span class="stat-number">LIFETIME</span>
+                                <span class="stat-label">Best Value</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Keys Section -->
+        <section class="keys">
+            <div class="container">
+                <h2 class="cyber-title">CHOOSE YOUR KEY</h2>
+                <p class="section-subtitle">Select from our flexible pricing options to match your needs</p>
+                
+                <div class="keys-grid">
+                    <div class="key-card" data-duration="1day">
+                        <div class="key-header">
+                            <h3>1 DAY</h3>
+                            <div class="key-price">
+                                <span class="price">$4.99</span>
+                                <span class="period">/day</span>
+                            </div>
+                        </div>
+                        <ul class="key-features">
+                            <li><i class="fas fa-check"></i> 24-hour access</li>
+                            <li><i class="fas fa-check"></i> Full script support</li>
+                            <li><i class="fas fa-check"></i> Premium features</li>
+                            <li><i class="fas fa-check"></i> 24/7 support</li>
+                        </ul>
+                        <button class="buy-btn" data-key="1day" data-price="4.99">
+                            BUY NOW
+                        </button>
+                    </div>
+
+                    <div class="key-card" data-duration="1week">
+                        <div class="key-header">
+                            <h3>1 WEEK</h3>
+                            <div class="key-price">
+                                <span class="price">$14.99</span>
+                                <span class="period">/week</span>
+                            </div>
+                        </div>
+                        <ul class="key-features">
+                            <li><i class="fas fa-check"></i> 7-day access</li>
+                            <li><i class="fas fa-check"></i> Full script support</li>
+                            <li><i class="fas fa-check"></i> Premium features</li>
+                            <li><i class="fas fa-check"></i> Priority support</li>
+                        </ul>
+                        <button class="buy-btn" data-key="1week" data-price="14.99">
+                            BUY NOW
+                        </button>
+                    </div>
+
+                    <div class="key-card popular" data-duration="1month">
+                        <div class="popular-badge">POPULAR</div>
+                        <div class="key-header">
+                            <h3>1 MONTH</h3>
+                            <div class="key-price">
+                                <span class="price">$29.99</span>
+                                <span class="period">/month</span>
+                            </div>
+                        </div>
+                        <ul class="key-features">
+                            <li><i class="fas fa-check"></i> 30-day access</li>
+                            <li><i class="fas fa-check"></i> Full script support</li>
+                            <li><i class="fas fa-check"></i> Premium features</li>
+                            <li><i class="fas fa-check"></i> Priority support</li>
+                            <li><i class="fas fa-check"></i> Beta access</li>
+                        </ul>
+                        <button class="buy-btn popular-btn" data-key="1month" data-price="29.99">
+                            BUY NOW
+                        </button>
+                    </div>
+
+                    <div class="key-card" data-duration="6months">
+                        <div class="key-header">
+                            <h3>6 MONTHS</h3>
+                            <div class="key-price">
+                                <span class="price">$89.99</span>
+                                <span class="period">/6 months</span>
+                            </div>
+                        </div>
+                        <ul class="key-features">
+                            <li><i class="fas fa-check"></i> 180-day access</li>
+                            <li><i class="fas fa-check"></i> Full script support</li>
+                            <li><i class="fas fa-check"></i> Premium features</li>
+                            <li><i class="fas fa-check"></i> VIP support</li>
+                            <li><i class="fas fa-check"></i> Beta access</li>
+                        </ul>
+                        <button class="buy-btn" data-key="6months" data-price="89.99">
+                            BUY NOW
+                        </button>
+                    </div>
+
+                    <div class="key-card" data-duration="1year">
+                        <div class="key-header">
+                            <h3>1 YEAR</h3>
+                            <div class="key-price">
+                                <span class="price">$149.99</span>
+                                <span class="period">/year</span>
+                            </div>
+                        </div>
+                        <ul class="key-features">
+                            <li><i class="fas fa-check"></i> 365-day access</li>
+                            <li><i class="fas fa-check"></i> Full script support</li>
+                            <li><i class="fas fa-check"></i> Premium features</li>
+                            <li><i class="fas fa-check"></i> VIP support</li>
+                            <li><i class="fas fa-check"></i> Beta access</li>
+                            <li><i class="fas fa-check"></i> Exclusive scripts</li>
+                        </ul>
+                        <button class="buy-btn" data-key="1year" data-price="149.99">
+                            BUY NOW
+                        </button>
+                    </div>
+
+                    <div class="key-card" data-duration="10years">
+                        <div class="key-header">
+                            <h3>10 YEARS</h3>
+                            <div class="key-price">
+                                <span class="price">$499.99</span>
+                                <span class="period">/10 years</span>
+                            </div>
+                        </div>
+                        <ul class="key-features">
+                            <li><i class="fas fa-check"></i> 10-year access</li>
+                            <li><i class="fas fa-check"></i> Full script support</li>
+                            <li><i class="fas fa-check"></i> Premium features</li>
+                            <li><i class="fas fa-check"></i> VIP support</li>
+                            <li><i class="fas fa-check"></i> Beta access</li>
+                            <li><i class="fas fa-check"></i> Exclusive scripts</li>
+                        </ul>
+                        <button class="buy-btn" data-key="10years" data-price="499.99">
+                            BUY NOW
+                        </button>
+                    </div>
+
+                    <div class="key-card lifetime" data-duration="lifetime">
+                        <div class="popular-badge">BEST VALUE</div>
+                        <div class="key-header">
+                            <h3>LIFETIME</h3>
+                            <div class="key-price">
+                                <span class="price">$999.99</span>
+                                <span class="period">/lifetime</span>
+                            </div>
+                        </div>
+                        <ul class="key-features">
+                            <li><i class="fas fa-check"></i> Lifetime access</li>
+                            <li><i class="fas fa-check"></i> Full script support</li>
+                            <li><i class="fas fa-check"></i> Premium features</li>
+                            <li><i class="fas fa-check"></i> VIP support</li>
+                            <li><i class="fas fa-check"></i> Beta access</li>
+                            <li><i class="fas fa-check"></i> Exclusive scripts</li>
+                            <li><i class="fas fa-check"></i> Early updates</li>
+                        </ul>
+                        <button class="buy-btn lifetime-btn" data-key="lifetime" data-price="999.99">
+                            BUY NOW
+                        </button>
+                    </div>
+                </div>
+
+                <!-- Payment Methods -->
+                <div class="payment-methods">
+                    <h3 class="cyber-title">PAYMENT METHODS</h3>
+                    <div class="payment-grid">
+                        <div class="payment-card">
+                            <i class="fab fa-bitcoin"></i>
+                            <h4>CRYPTOCURRENCY</h4>
+                            <p>Bitcoin, Ethereum, USDT</p>
+                        </div>
+                        <div class="payment-card">
+                            <i class="fab fa-paypal"></i>
+                            <h4>PAYPAL</h4>
+                            <p>Secure PayPal checkout</p>
+                        </div>
+                        <div class="payment-card">
+                            <i class="fas fa-credit-card"></i>
+                            <h4>CREDIT CARD</h4>
+                            <p>Visa, MasterCard, Amex</p>
+                        </div>
+                        <div class="payment-card">
+                            <i class="fas fa-gift"></i>
+                            <h4>GIFT CARDS</h4>
+                            <p>Steam, Amazon, Google Play</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-logo">
+                    <h3><span class="neon-green">KEARLIN</span> EXECUTOR</h3>
+                    <p>Premium Roblox exploiting experience</p>
+                </div>
+                <div class="footer-links">
+                    <a href="welcome.html">Welcome</a>
+                    <a href="download.html">Download</a>
+                    <a href="discord.html">Discord</a>
+                </div>
+                <div class="footer-social">
+                    <a href="#"><i class="fab fa-discord"></i></a>
+                    <a href="#"><i class="fab fa-youtube"></i></a>
+                    <a href="#"><i class="fab fa-twitter"></i></a>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2024 Kearlin Executor. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>

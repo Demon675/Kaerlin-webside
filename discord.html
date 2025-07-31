@@ -1,0 +1,276 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Join Discord - Kearlin Executor</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@300;400;500;600;700&family=Orbitron:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body class="dark-theme">
+    <canvas id="matrix-canvas"></canvas>
+    
+    <header class="header">
+        <nav class="navbar">
+            <div class="nav-container">
+                <div class="nav-logo">
+                    <h2><span class="neon-green">KEARLIN</span> <span class="neon-text">EXECUTOR</span></h2>
+                </div>
+                <ul class="nav-menu">
+                    <li><a href="welcome.html" class="nav-link">WELCOME</a></li>
+                    <li><a href="download.html" class="nav-link">DOWNLOAD</a></li>
+                    <li><a href="buy.html" class="nav-link">BUY KEYS</a></li>
+                    <li><a href="discord.html" class="nav-link active">DISCORD</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <!-- Hero Section -->
+        <section class="hero">
+            <div class="hero-container">
+                <div class="hero-content">
+                    <div class="hero-text">
+                        <h1>
+                            <span class="glitch-text">JOIN OUR</span><br>
+                            <span class="neon-cyan">DISCORD COMMUNITY</span>
+                        </h1>
+                        <p class="hero-subtitle">
+                            Connect with 50,000+ members, get support,<br>
+                            share scripts, and stay updated with latest news.
+                        </p>
+                        
+                        <div class="hero-stats">
+                            <div class="stat">
+                                <span class="stat-number">50K+</span>
+                                <span class="stat-label">Members</span>
+                            </div>
+                            <div class="stat">
+                                <span class="stat-number">24/7</span>
+                                <span class="stat-label">Support</span>
+                            </div>
+                            <div class="stat">
+                                <span class="stat-number">1000+</span>
+                                <span class="stat-label">Scripts</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Discord Section -->
+        <section class="discord">
+            <div class="container">
+                <div class="discord-content">
+                    <div class="discord-info">
+                        <h2 class="discord-title">KEARLIN EXECUTOR DISCORD</h2>
+                        <p class="discord-subtitle">
+                            Join the largest Roblox exploiting community! Get instant access to:
+                        </p>
+                        
+                        <div class="discord-stats">
+                            <div class="discord-stat">
+                                <i class="fas fa-users"></i>
+                                <span>50,000+ active members</span>
+                            </div>
+                            <div class="discord-stat">
+                                <i class="fas fa-headset"></i>
+                                <span>24/7 professional support</span>
+                            </div>
+                            <div class="discord-stat">
+                                <i class="fas fa-code"></i>
+                                <span>1,000+ premium scripts</span>
+                            </div>
+                            <div class="discord-stat">
+                                <i class="fas fa-bell"></i>
+                                <span>Instant update notifications</span>
+                            </div>
+                            <div class="discord-stat">
+                                <i class="fas fa-star"></i>
+                                <span>Exclusive member perks</span>
+                            </div>
+                            <div class="discord-stat">
+                                <i class="fas fa-trophy"></i>
+                                <span>Regular giveaways & events</span>
+                            </div>
+                        </div>
+                        
+                        <a href="https://discord.gg/kearlin" class="discord-btn" target="_blank">
+                            <i class="fab fa-discord"></i>
+                            JOIN DISCORD SERVER
+                        </a>
+                        
+                        <div class="discord-invite">
+                            <p>Discord Invite: <code>discord.gg/kearlin</code></p>
+                            <button class="copy-btn" onclick="copyInvite()">
+                                <i class="fas fa-copy"></i>
+                                COPY INVITE
+                            </button>
+                        </div>
+                    </div>
+                    
+                    <div class="discord-widget">
+                        <div class="widget-header">
+                            <div class="server-icon"></div>
+                            <div class="server-info">
+                                <h3>Kearlin Executor</h3>
+                                <p>Premium Roblox Exploiting Community</p>
+                            </div>
+                        </div>
+                        
+                        <div class="widget-status">
+                            <span class="status-dot"></span>
+                            <span>50,247 Online</span>
+                        </div>
+                        
+                        <div class="widget-channels">
+                            <h4>Popular Channels</h4>
+                            <div class="channel-list">
+                                <div class="channel">
+                                    <i class="fas fa-hashtag"></i>
+                                    <span>#general-chat</span>
+                                    <span class="channel-count">12.5k</span>
+                                </div>
+                                <div class="channel">
+                                    <i class="fas fa-hashtag"></i>
+                                    <span>#script-hub</span>
+                                    <span class="channel-count">8.2k</span>
+                                </div>
+                                <div class="channel">
+                                    <i class="fas fa-hashtag"></i>
+                                    <span>#support</span>
+                                    <span class="channel-count">5.7k</span>
+                                </div>
+                                <div class="channel">
+                                    <i class="fas fa-hashtag"></i>
+                                    <span>#announcements</span>
+                                    <span class="channel-count">3.1k</span>
+                                </div>
+                                <div class="channel">
+                                    <i class="fas fa-hashtag"></i>
+                                    <span>#giveaways</span>
+                                    <span class="channel-count">2.8k</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Discord Benefits -->
+                <div class="discord-benefits">
+                    <h3 class="cyber-title">DISCORD BENEFITS</h3>
+                    <div class="benefits-grid">
+                        <div class="benefit-card">
+                            <div class="benefit-icon">
+                                <i class="fas fa-bolt"></i>
+                            </div>
+                            <h4>Instant Updates</h4>
+                            <p>Get notified immediately when new versions are released</p>
+                        </div>
+                        <div class="benefit-card">
+                            <div class="benefit-icon">
+                                <i class="fas fa-users-cog"></i>
+                            </div>
+                            <h4>Expert Support</h4>
+                            <p>Get help from experienced users and developers</p>
+                        </div>
+                        <div class="benefit-card">
+                            <div class="benefit-icon">
+                                <i class="fas fa-gift"></i>
+                            </div>
+                            <h4>Exclusive Giveaways</h4>
+                            <p>Win free keys, scripts, and premium features</p>
+                        </div>
+                        <div class="benefit-card">
+                            <div class="benefit-icon">
+                                <i class="fas fa-shield-alt"></i>
+                            </div>
+                            <h4>Security Alerts</h4>
+                            <p>Stay informed about security updates and patches</p>
+                        </div>
+                        <div class="benefit-card">
+                            <div class="benefit-icon">
+                                <i class="fas fa-code-branch"></i>
+                            </div>
+                            <h4>Beta Access</h4>
+                            <p>Test new features before public release</p>
+                        </div>
+                        <div class="benefit-card">
+                            <div class="benefit-icon">
+                                <i class="fas fa-handshake"></i>
+                            </div>
+                            <h4>Community</h4>
+                            <p>Connect with like-minded exploiters and developers</p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- FAQ Section -->
+                <div class="discord-faq">
+                    <h3 class="cyber-title">FREQUENTLY ASKED QUESTIONS</h3>
+                    <div class="faq-grid">
+                        <div class="faq-item">
+                            <h4>Is the Discord server free to join?</h4>
+                            <p>Yes! Our Discord server is completely free to join. You can access most channels without any purchase.</p>
+                        </div>
+                        <div class="faq-item">
+                            <h4>Do I need a key to join Discord?</h4>
+                            <p>No, you can join our Discord server even without purchasing a key. However, some premium channels require active key verification.</p>
+                        </div>
+                        <div class="faq-item">
+                            <h4>How do I verify my key in Discord?</h4>
+                            <p>After purchasing a key, use the /verify command in Discord and provide your order ID to unlock premium channels.</p>
+                        </div>
+                        <div class="faq-item">
+                            <h4>What if I get banned from Discord?</h4>
+                            <p>Contact our support team through the website or create a ticket. We'll review your case and help resolve any issues.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-logo">
+                    <h3><span class="neon-green">KEARLIN</span> EXECUTOR</h3>
+                    <p>Premium Roblox exploiting experience</p>
+                </div>
+                <div class="footer-links">
+                    <a href="welcome.html">Welcome</a>
+                    <a href="download.html">Download</a>
+                    <a href="buy.html">Buy Keys</a>
+                </div>
+                <div class="footer-social">
+                    <a href="https://discord.gg/kearlin" target="_blank"><i class="fab fa-discord"></i></a>
+                    <a href="#"><i class="fab fa-youtube"></i></a>
+                    <a href="#"><i class="fab fa-twitter"></i></a>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2024 Kearlin Executor. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script>
+        function copyInvite() {
+            const inviteCode = 'discord.gg/kearlin';
+            navigator.clipboard.writeText(inviteCode).then(() => {
+                const btn = event.target;
+                const originalText = btn.innerHTML;
+                btn.innerHTML = '<i class="fas fa-check"></i> COPIED!';
+                setTimeout(() => {
+                    btn.innerHTML = originalText;
+                }, 2000);
+            });
+        }
+    </script>
+    <script src="script.js"></script>
+</body>
+</html>
